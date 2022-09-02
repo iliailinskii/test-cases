@@ -14,3 +14,32 @@ Basically, there are 3 types of tech interviews for data analysts:
 * Tech interview. Candidates are asked to write some scripts in SQL / Python during the interview. 
 
 However, some companies use various combinations of these types. 
+### Company A
+This company is specialized in call-center automatization with their AI bots. Their tech task tests analyst ability to find insights in data, prepare visualization and provide recommendations to the business.
+
+Case content:
+* [Task description](https://github.com/iliailinskii/test-cases/blob/main/company%20a/Company%20A%20tech%20task.pdf)
+* [Presentation to managers](https://github.com/iliailinskii/test-cases/blob/main/company%20a/Company%20A%20result%20slides.pdf)
+* [Solution scripts](https://github.com/iliailinskii/test-cases/blob/main/company%20a/Company_A%20scripts.ipynb)
+
+### Company B
+This is a fintech company. The task challenges analyst's ability to analyze cohorts and work as a growth-hacker.
+
+Case content:
+* [Task description](https://github.com/iliailinskii/test-cases/blob/main/company%20b/Company%20b%20tech%20task.pdf)
+* [Solution scripts](https://github.com/iliailinskii/test-cases/blob/main/company%20b/Company_B_scripts.ipynb)
+
+### Company C
+This is a dating app company. The task challenges analysts' ability to work with unstructured data and find anomalies.
+
+Case content:
+* [Task description](https://github.com/iliailinskii/test-cases/blob/main/company%20c/Company%20C%20tech%20task.pdf)
+* [Presentation to managers](https://github.com/iliailinskii/test-cases/blob/main/company%20c/Company%20C%20result%20slides.pdf)
+* [Solution scripts](https://github.com/iliailinskii/test-cases/blob/main/company%20c/Company_C_scripts.ipynb)
+
+### Company D
+This is a fintech company that distributes digital subscription products. The task is focused on marketing analysis and testing the ability of channels evaluation.
+
+Case content:
+* [Task description](https://github.com/iliailinskii/test-cases/blob/main/company%20d/Company%20%20D%20tech%20task.pdf)
+* [Solution scripts](https://github.com/iliailinskii/test-cases/blob/main/company%20d/Company%20D%20scripts.ipynb)
