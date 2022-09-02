@@ -12,4 +12,5 @@ Basically, there are 3 types of tech interviews for data analysts:
 * Online test. Usually, test SQL skills. 
 * Home task. The company provides a dataset and tech task description and gives 1 week for its solution.
 * Tech interview. Candidates are asked to write some scripts in SQL / Python during the interview. 
+
 However, some companies use various combinations of these types. 
