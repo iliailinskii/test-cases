@@ -1,4 +1,5 @@
 # Data analyst tech tasks
+
 During my career, I have faced many different tech tasks for data analysis. In this repository, you can find my solutions and a couple of recommendations for analysts. 
 ## Repository structure
 * Real tech tasks solutions
@@ -60,6 +61,6 @@ By the way, I conduct all my studies in [Colab](https://colab.research.google.co
 > Small tip. You can use Colab Pro version with GPU and additional RAM for 10 euros per month. And still, all these things are highly affordable, because you can have lots of calculation resources even on the super cheap devices (in extremal case even on tablet or smartphone)
 
 ### Instrument to demonstrate SQL skills
-Firstly, I highly recommend trying these [site](https://sqliteonline.com/)
+Firstly, I highly recommend trying this [site](https://sqliteonline.com/)
 
 
