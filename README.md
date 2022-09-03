@@ -43,3 +43,23 @@ This is a fintech company that distributes digital subscription products. The ta
 Case content:
 * [Task description](https://github.com/iliailinskii/test-cases/blob/main/company%20d/Company%20%20D%20tech%20task.pdf)
 * [Solution scripts](https://github.com/iliailinskii/test-cases/blob/main/company%20d/Company%20D%20scripts.ipynb)
+
+## Best practice
+Here I collected main points of how to complete analyst tech task and some small tips for it.
+
+### Choose instrument 
+Nowadays, there are lots of instruments that allow you to demonstrate your analyst skills. 
+I suppose [Jupyter Notebooks](https://jupyter.org/install) to be one of the most widespread ones. There is a number of pros to using it:
+- Use python for working with data
+- Ability to organize research structure
+- Convenient markdowns system, so you can follow your scripts with comments and conclusions
+- Standard format 
+
+So you can write scripts and presentations for research all in one. 
+By the way, I conduct all my studies in [Colab](https://colab.research.google.com/notebooks/basic_features_overview.ipynb). I chose it because I had only the old-fashioned laptop with 2 cores processor and sometimes worked in the library public computers. Thus, Colab let me not be limited with laptop resources and be flexible in working on the project from different devices. Among other pros Colab is much easier to set up. In fact, you need just open the link and also you can share it by link. 
+> Small tip. You can use Colab Pro version with GPU and additional RAM for 10 euros per month. And still, all these things are highly affordable, because you can have lots of calculation resources even on the super cheap devices (in extremal case even on tablet or smartphone)
+
+### Instrument to demonstrate SQL skills
+Firstly, I highly recommend trying these [site](https://sqliteonline.com/)
+
+
