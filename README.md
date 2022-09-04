@@ -61,6 +61,11 @@ By the way, I conduct all my studies in [Colab](https://colab.research.google.co
 > Small tip. You can use Colab Pro version with GPU and additional RAM for 10 euros per month. And still, all these things are highly affordable, because you can have lots of calculation resources even on the super cheap devices (in extremal case even on tablet or smartphone)
 
 ### Instrument to demonstrate SQL skills
-Firstly, I highly recommend trying this [site](https://sqliteonline.com/)
+In the beginning, I highly recommend trying this [site](https://sqliteonline.com/). Here you can import CSV files and work with them on SQL lite. Also, you can deploy MariaDB, Postrgres, or MS SQL locally and use this site as an interface. 
+
+However, sqliteinline has limits for table size and you can not make a dashboard in it to share your results by link. That's why I suggest using [pandasql](https://pypi.org/project/pandasql/) in combination with Jupyter Notebook. In such approach, you can demonstrate all your skills in one document.
+> Small tip. If you use pandasql you need to format your values to 8-bit datatype. It is SQL lite limit. 
+
+
 
 
