@@ -66,6 +66,50 @@ In the beginning, I highly recommend trying this [site](https://sqliteonline.com
 However, sqliteinline has limits for table size and you can not make a dashboard in it to share your results by link. That's why I suggest using [pandasql](https://pypi.org/project/pandasql/) in combination with Jupyter Notebook. In such approach, you can demonstrate all your skills in one document.
 > Small tip. If you use pandasql you need to format your values to 8-bit datatype. It is SQL lite limit. 
 
+### How to organize proccess
+Tech task usually is quite a stressful process. That is why having a plan allow you keep focus and worry less. 
+Surprisingly, most of the tasks are structured the same. You have a dataset, its description (hopefully), and a task list. 
+>  It is critical to understand what the company wants to test to make a good solution. 
+From my managerial expirience, I suppose most the companies follow aim to test candidates for the next skills.
+- Work process organization
+- Ability to work with the new dataset
+- Understanding of metric tree in the company field (funnels, unit economy, statistics, etc)
+- Python / SQL level
+- Data Visualisation 
+- Make conclusions and insights based on Data
+
+Based on these information we can tune our approach for task solution.
+I suggest following the next checklist in every solution.
+
+1. Read the task mindfully and the dataset description
+2. If there is no dataset description, have a look at it (how to do it in the next parts)
+3. Create a research plan.
+>  I know that research is a creative process and most analysts create a plan during working with data. However, in a test task, you do not have enough time to spend in a such way.
+4. Describe your plan in Notebook
+5. Read the data
+6. Clear data
+7. Create an analytical platform for yourself. It includes all your scripts to complete the task.
+8. Reassume scripts and reorganize them to save only the working hypothesis to make it clearer for the examinator
+9. Tune visualizations
+10. Write down conclusions and markdown comments on scripts
+11. Make a presentation to the manager
+12. Create a solution pack, describe it and send it to the company
+
+Doing our best at every of these points we will increase our chances to pass the test.
+You can see that most of them are very universal for any tasks. Thus, I think my advice will work for the magority of analyst tech tasks.
+
+### Tips to improve solution
+*Read test task*
 
 
+
+
+
+
+
+
+
+
+
+ 
 
