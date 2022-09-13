@@ -99,7 +99,7 @@ Doing our best at every of these points we will increase our chances to pass the
 You can see that most of them are very universal for any tasks. Thus, I think my advice will work for the magority of analyst tech tasks.
 
 ### Tips to improve solution
-*Read test task*
+*No dataset description*
 
 
 
