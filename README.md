@@ -161,6 +161,26 @@ In the case of a unique id that should be unique in this table, it makes sense t
 In categorical values, you may have the same category meaning with different labels (with different literature upper or lower, with close words, etc).
 To find out it, again you can count values by unique values in the column. 
 
+*Create an analytical platform*
+That is an interesting part. I really believe that the best way to research data is to make a convenient interactive dashboard for yourself. 
+Basically, a good analyst is getting used to exploring data by writing scripts and visually seeing that data tables might be essential.
+BUT, the ability to operate with data using UI makes the exploration process much faster and it may be critical in the creative process. 
+When you can navigate over the data by clicking it allow you to follow your mind immediately without thoughts about how to construct the query. 
+As an example, you want to research the conversion rate to purchase to see study user base quality. You have two ways to build funnels one by one or create master data and built an interactive dashboard, where you can select segment, cohort, country, span, device, etc. When you can choose slices, grouping, and define periods it allows you to test many hypotheses and generate new ones just on the go.
+
+I hope I prove a need for such a platform. Then how it can be created?
+In a company usually you have BI system. In a test task you have two ways:
+1. Use BI system on your own:) But it may be time overkill to set up it locally for each task
+2. Use Notebook interactive abilities.
+
+I personally vote for the second one. In my case, I use [plotly](https://plotly.com/python/).
+Why I have chosen it?
+1. Simplicity, less code more functions. You need to write a couple of code lines and as a result get an animated, interactive graph.
+2. Beauty. It looks clear, modern, and pretty, so even if you are not a professional visualizer you will have nice graphs. In addition, you may use these graphs not just for your platform but also for your case solution visualisations. 
+3. Big graph assortment from bars to maps. 
+
+In cases when you need to build a lot of graphs, I highly recommend writing the graph generator method and automating this process to make your script even more concise.
+
 
 
 
