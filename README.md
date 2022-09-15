@@ -127,9 +127,34 @@ Based on the data description:
 
 I form a plan as a result of a combination of business and technical parts. In my practice, these patterns cover almost all cases.
 
+*Read data*
+Nothing special. I used pandas.read_csv / pandas.read_excel. In case of CSV sometimes you need to update separation parameter to ";" using sep = ";" condition. 
+Also, if you work in Colab you can read files from your google disk
+```
+from google.colab import drive
+drive.mount('/content/gdrive', force_remount=True) # set default location as main disc direction
+```
+*Clear data*
+Anomalies in data may spoil all your further analysis. That is why never skip this step even or especially in test tasks.
+The basic steps for these processes are the next:
 
+Cope with missings.
+-  Firstly, define them it might be empty/space/NaN/na/nan/NA or called something else. To detect missing values use isnull() and isna(). However, to double-check it I recommend calculating count by unique values.
+-  Secondly, decide what to do drop it (.dropna()) / to set default value (.fillna())/ reconstruct it.
+> Usually you can drop data if it's extremely rare events. You should fill the default value if it is a suffient part of data. And in rare cases, there is a way to reconstruct data from other fields. For instance, you do not have a device brand but you have device OS so you can reconstruct apple devices by ios value. 
+-  Finally, conduct the proper action.
 
+Check anomalies. 
+The most common one:
+- Negative values for real numbers value
+- Wrong DateTime ( dates in the future or far in the past)
+- Wrong time sequence. For example, first, purchase earlier than the first visit.
+- Sometimes there is a need to exclude extremal values like first or 99 percentile
 
+Check doubles
+In the case of a unique id that should be unique in this table, it makes sense to check it.
+In categorical values, you may have the same category meaning with different labels (with different literature upper or lower, with close words, etc).
+To find out it, again you can count values by unique values in the column. 
 
 
 
