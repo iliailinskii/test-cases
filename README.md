@@ -100,6 +100,17 @@ You can see that most of them are very universal for any tasks. Thus, I think my
 
 ### Tips to improve solution
 *No dataset description*
+Okey sometimes either company wants to test your ability to work with undocumented data or they are just lazy to make descriptions. In that case, you need to define data nature by yourself. How to do it. 
+Usually follow the next plan:
+- Have a look at the data. Select head 5-10 rows and visually see their values. 
+> Using pandas library in python you can use function df.head(number_rows) 
+- Try to connect column name, value, and business meaning. 
+- Classify the values and select a data type. Is it categorical, rank, number, DateTime, bool, or something else?
+- Based on data type I tried to learn what this data looks like. How many categories? What is the minimal and maximum date? How number value is distributed. Do data include NaN and how are they logged?
+> Firstly, change a data format to the correct one for DateTime use datetime library and pandas function pandas.datetime for other types you can use .astype. Then to see general information simplest way is to use the pandas function .describe(). It returns max, min, average, unique, count, and other important metrics. For number value distribution you can build box splot in any convenient library (in the next part I will share my favorite one).
+
+This analysis usually is enough to go to the planning stage.
+*How to create plan*
 
 
 
