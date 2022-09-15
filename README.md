@@ -110,7 +110,24 @@ Usually follow the next plan:
 > Firstly, change a data format to the correct one for DateTime use datetime library and pandas function pandas.datetime for other types you can use .astype. Then to see general information simplest way is to use the pandas function .describe(). It returns max, min, average, unique, count, and other important metrics. For number value distribution you can build box splot in any convenient library (in the next part I will share my favorite one).
 
 This analysis usually is enough to go to the planning stage.
-*How to create plan*
+
+*How to create a plan*
+Honestly, there is no excetly one way to do it. It highly depends on the tech task.
+However, to save time you can use a common research pattern.
+Which patterns do I often use?
+Based on tech task:
+- From up to down approach. Select the main metric, decompose this metric to sub-metrics and build all possible distributions of these metrics based on available slices. 
+> For example, you need to define marketing channel efficiency. The high metric is ROI. You can decompose it to LTV and CAC, LTV decomposes to ARPU and LT, ARPU decomposes to APPP and APPU. Then you can see time dynamics, structure by market channels and their companies, structure by segment, country, device, etc.
+Based on the data description:
+- If I have time series in the data frame, I research dynamics with one or several spans, daily, weekly, or monthly.
+- If I have categorical values I use them for slices.
+- If I have numerical values I research their distribution. 
+- If I have events timestamps I built funnels.
+- If I have the first action date I built cohorts.
+
+I form a plan as a result of a combination of business and technical parts. In my practice, these patterns cover almost all cases.
+
+
 
 
 
