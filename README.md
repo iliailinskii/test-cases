@@ -100,6 +100,7 @@ You can see that most of them are very universal for any tasks. Thus, I think my
 
 ### Tips to improve solution
 *No dataset description*
+
 Okey sometimes either company wants to test your ability to work with undocumented data or they are just lazy to make descriptions. In that case, you need to define data nature by yourself. How to do it. 
 Usually follow the next plan:
 - Have a look at the data. Select head 5-10 rows and visually see their values. 
@@ -112,6 +113,7 @@ Usually follow the next plan:
 This analysis usually is enough to go to the planning stage.
 
 *How to create a plan*
+
 Honestly, there is no excetly one way to do it. It highly depends on the tech task.
 However, to save time you can use a common research pattern.
 Which patterns do I often use?
@@ -128,6 +130,7 @@ Based on the data description:
 I form a plan as a result of a combination of business and technical parts. In my practice, these patterns cover almost all cases.
 
 *Read data*
+
 Nothing special. I used pandas.read_csv / pandas.read_excel. In case of CSV sometimes you need to update separation parameter to ";" using sep = ";" condition. 
 Also, if you work in Colab you can read files from your google disk
 ```
@@ -135,10 +138,12 @@ from google.colab import drive
 drive.mount('/content/gdrive', force_remount=True) # set default location as main disc direction
 ```
 *Clear data*
+
 Anomalies in data may spoil all your further analysis. That is why never skip this step even or especially in test tasks.
 The basic steps for these processes are the next:
 
 Cope with missings.
+
 -  Firstly, define them it might be empty/space/NaN/na/nan/NA or called something else. To detect missing values use isnull() and isna(). However, to double-check it I recommend calculating count by unique values.
 -  Secondly, decide what to do drop it (.dropna()) / to set default value (.fillna())/ reconstruct it.
 > Usually you can drop data if it's extremely rare events. You should fill the default value if it is a suffient part of data. And in rare cases, there is a way to reconstruct data from other fields. For instance, you do not have a device brand but you have device OS so you can reconstruct apple devices by ios value. 
