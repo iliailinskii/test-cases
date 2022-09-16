@@ -5,6 +5,12 @@ During my career, I have faced many different tech tasks for data analysis. In t
 * Real tech tasks solutions
 * Best practice
 * How to introduce yourself 
+
+## To be done in the future
+* Create universal testing case for marketing/growth analyst
+* Create documentation for a team lead
+* Make better versions of my case solutions
+
 ## Real tech tasks solutions
 All cases in this repository are real interview tech tasks for a senior data analyst position, mostly in marketing or growth teams.
 I rename companies to protect their anonymity. 
@@ -162,10 +168,12 @@ In categorical values, you may have the same category meaning with different lab
 To find out it, again you can count values by unique values in the column. 
 
 *Create an analytical platform*
+
 That is an interesting part. I really believe that the best way to research data is to make a convenient interactive dashboard for yourself. 
 Basically, a good analyst is getting used to exploring data by writing scripts and visually seeing that data tables might be essential.
 BUT, the ability to operate with data using UI makes the exploration process much faster and it may be critical in the creative process. 
 When you can navigate over the data by clicking it allow you to follow your mind immediately without thoughts about how to construct the query. 
+
 As an example, you want to research the conversion rate to purchase to see study user base quality. You have two ways to build funnels one by one or create master data and built an interactive dashboard, where you can select segment, cohort, country, span, device, etc. When you can choose slices, grouping, and define periods it allows you to test many hypotheses and generate new ones just on the go.
 
 I hope I prove a need for such a platform. Then how it can be created?
@@ -180,6 +188,41 @@ Why I have chosen it?
 3. Big graph assortment from bars to maps. 
 
 In cases when you need to build a lot of graphs, I highly recommend writing the graph generator method and automating this process to make your script even more concise.
+
+*Reassume scripts*
+
+I do recommend not sending your "analytical platform" as a solution to the hiring managers. It might work clearly for you, as soon as you have constructed it, but for a manager, it can be too complicated. You should understand that an examinator manager usually does not have plenty of free time. I consider that the best practice is to provide a shorter decision and either hide your "analytical platform" or add it at the end of the solution. 
+
+In the shorter version place all your analysis in the logic sequence and leave only the parts which lead to the result skipping analysis without outcomes. 
+
+*Tune visualisations*
+
+As I said before I highly recommend [plotly](https://plotly.com/python/). However, you are free to choose any instrument. 
+
+The thing you should keep in mind is that every graph must have:
+* Head title
+* Legend
+* Axis names
+* Description of how to read it
+
+Also, data have to be:
+* Visually separated
+* Not overloaded with the content
+* Not be misinterpreted 
+
+Use the correct graphs:
+* Barchart or piecharts for structure 
+* Line charts for time series 
+* Box plot, scatter plot, bars for distributions
+* Maps for geo-data
+* Tables for the multimetric comparisons
+
+etc
+
+*Make presentation*
+
+*Create a solution pack*
+
 
 
 
