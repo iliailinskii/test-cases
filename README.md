@@ -105,7 +105,7 @@ Doing our best at every of these points we will increase our chances to pass the
 You can see that most of them are very universal for any tasks. Thus, I think my advice will work for the magority of analyst tech tasks.
 
 ### Tips to improve solution
-*No dataset description*
+**No dataset description**
 
 Okey sometimes either company wants to test your ability to work with undocumented data or they are just lazy to make descriptions. In that case, you need to define data nature by yourself. How to do it. 
 Usually follow the next plan:
@@ -118,7 +118,7 @@ Usually follow the next plan:
 
 This analysis usually is enough to go to the planning stage.
 
-*How to create a plan*
+**How to create a plan**
 
 Honestly, there is no excetly one way to do it. It highly depends on the tech task.
 However, to save time you can use a common research pattern.
@@ -135,7 +135,7 @@ Based on the data description:
 
 I form a plan as a result of a combination of business and technical parts. In my practice, these patterns cover almost all cases.
 
-*Read data*
+**Read data**
 
 Nothing special. I used pandas.read_csv / pandas.read_excel. In case of CSV sometimes you need to update separation parameter to ";" using sep = ";" condition. 
 Also, if you work in Colab you can read files from your google disk
@@ -143,7 +143,7 @@ Also, if you work in Colab you can read files from your google disk
 from google.colab import drive
 drive.mount('/content/gdrive', force_remount=True) # set default location as main disc direction
 ```
-*Clear data*
+**Clear data**
 
 Anomalies in data may spoil all your further analysis. That is why never skip this step even or especially in test tasks.
 The basic steps for these processes are the next:
@@ -156,6 +156,7 @@ Cope with missings.
 -  Finally, conduct the proper action.
 
 Check anomalies. 
+
 The most common one:
 - Negative values for real numbers value
 - Wrong DateTime ( dates in the future or far in the past)
@@ -163,11 +164,12 @@ The most common one:
 - Sometimes there is a need to exclude extremal values like first or 99 percentile
 
 Check doubles
+
 In the case of a unique id that should be unique in this table, it makes sense to check it.
 In categorical values, you may have the same category meaning with different labels (with different literature upper or lower, with close words, etc).
 To find out it, again you can count values by unique values in the column. 
 
-*Create an analytical platform*
+**Create an analytical platform**
 
 That is an interesting part. I really believe that the best way to research data is to make a convenient interactive dashboard for yourself. 
 Basically, a good analyst is getting used to exploring data by writing scripts and visually seeing that data tables might be essential.
@@ -189,13 +191,13 @@ Why I have chosen it?
 
 In cases when you need to build a lot of graphs, I highly recommend writing the graph generator method and automating this process to make your script even more concise.
 
-*Reassume scripts*
+**Reassume scripts**
 
 I do recommend not sending your "analytical platform" as a solution to the hiring managers. It might work clearly for you, as soon as you have constructed it, but for a manager, it can be too complicated. You should understand that an examinator manager usually does not have plenty of free time. I consider that the best practice is to provide a shorter decision and either hide your "analytical platform" or add it at the end of the solution. 
 
 In the shorter version place all your analysis in the logic sequence and leave only the parts which lead to the result skipping analysis without outcomes. 
 
-*Tune visualisations*
+**Tune visualisations**
 
 As I said before I highly recommend [plotly](https://plotly.com/python/). However, you are free to choose any instrument. 
 
@@ -219,9 +221,9 @@ Use the correct graphs:
 
 etc
 
-*Make presentation*
+**Make presentation**
 
-*Create a solution pack*
+**Create a solution pack**
 
 
 
