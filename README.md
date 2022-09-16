@@ -222,8 +222,48 @@ Use the correct graphs:
 etc
 
 **Make presentation**
+You are not expected to be a designer, but presentation quality is a huge plus for you, especially for presentations to non-analyst managers.
+Your presentation should be simple and clear.
+
+1. Add a research plan to the first slide.
+2. Follow each task with visualization and conclusion (better on one slide but not overload slide)
+
+A good idea is to use company corporate colors from their website.
+The presentation should be business style but not boring.
+
+I suggest using [canva](https://www.canva.com/) as a presentation constructor It has nice fonts, presets and easy UI. 
+1. [Presentation example 1](https://github.com/iliailinskii/test-cases/blob/main/company%20a/Company%20A%20result%20slides.pdf)
+2. [Presentation example 2](https://github.com/iliailinskii/test-cases/blob/main/company%20c/Company%20C%20result%20slides.pdf)
 
 **Create a solution pack**
+
+Write a letter to the company with your decision. 
+
+In the letter list all files and describe what they contain.
+
+In the case of collab, you can send an invitation to your file, but I still recommend sending HTML version in addition. 
+If you use Plotly you might face the problem that graphs are not rendered in HTML.
+To fix this problem use the next code.
+
+```
+fig.show("png") # in such case graph become not interactive but it will be showed by default in HTML
+
+```
+## Self-presentation
+
+Still, you should remember that you are evaluated not just based on your tech task, your interview sometimes is even more important.
+Almost all interviews do have the same script. On the one hand, I think that is a good idea to follow it. On the other, it is better to be bright and memorable. 
+For this aim, I highly recommend using an introduction presentation about yourself.
+
+You can find my presentation [here](https://github.com/iliailinskii/test-cases/blob/main/Self%20presentation.pdf).
+
+It is a good instrument
+* to bring structure to your speech
+* to show visually how you work
+* attract interest to yourself
+
+Thank you if you have read till the end.
+Please, feel free to add your comments, thoughts and share your expirience!
 
 
 
