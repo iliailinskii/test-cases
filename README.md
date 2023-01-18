@@ -7,7 +7,7 @@ During my career, I have faced many different tech tasks for data analysis. In t
 * How to introduce yourself 
 
 ## To be done in the future
-* Create universal testing case for marketing/growth analyst
+* Create a universal testing case for marketing/growth analyst
 * Create documentation for a team lead
 * Make better versions of my case solutions
 
@@ -15,7 +15,7 @@ During my career, I have faced many different tech tasks for data analysis. In t
 All cases in this repository are real interview tech tasks for a senior data analyst position, mostly in marketing or growth teams.
 I rename companies to protect their anonymity. 
 I chose only successful tech tasks. Thus, you can see an acceptable work level for successful data analyst tech interview completion. 
-Basically, there are 3 types of tech interviews for data analysts:
+There are 3 types of tech interviews for data analysts:
 * Online test. Usually, test SQL skills. 
 * Home task. The company provides a dataset and tech task description and gives 1 week for its solution.
 * Tech interview. Candidates are asked to write some scripts in SQL / Python during the interview. 
@@ -30,7 +30,7 @@ Case content:
 * [Solution scripts](https://github.com/iliailinskii/test-cases/blob/main/company%20a/Company_A%20scripts.ipynb)
 
 ### Company B
-This is a fintech company. The task challenges analyst's ability to analyze cohorts and work as a growth-hacker.
+This is a fintech company. The task challenges the analyst's ability to analyze cohorts and work as a growth hacker.
 
 Case content:
 * [Task description](https://github.com/iliailinskii/test-cases/blob/main/company%20b/Company%20b%20tech%20task.pdf)
@@ -45,35 +45,35 @@ Case content:
 * [Solution scripts](https://github.com/iliailinskii/test-cases/blob/main/company%20c/Company_C_scripts.ipynb)
 
 ### Company D
-This is a fintech company that distributes digital subscription products. The task is focused on marketing analysis and testing the ability of channels evaluation.
+This is a fintech company that distributes digital subscription products. The task is focused on marketing analysis and testing the ability of channel evaluation.
 
 Case content:
 * [Task description](https://github.com/iliailinskii/test-cases/blob/main/company%20d/Company%20%20D%20tech%20task.pdf)
 * [Solution scripts](https://github.com/iliailinskii/test-cases/blob/main/company%20d/Company%20D%20scripts.ipynb)
 
 ## Best practice
-Here I collected main points of how to complete analyst tech task and some small tips for it.
+Here I collected the main points of how to complete analyst tech tasks and some small tips for it.
 
 ### Choose instrument 
 Nowadays, there are lots of instruments that allow you to demonstrate your analyst skills. 
-I suppose [Jupyter Notebooks](https://jupyter.org/install) to be one of the most widespread ones. There is a number of pros to using it:
+I suppose [Jupyter Notebooks](https://jupyter.org/install) to be one of the most widespread ones. There is some pros to using it:
 - Use python for working with data
 - Ability to organize research structure
 - Convenient markdowns system, so you can follow your scripts with comments and conclusions
 - Standard format 
 
 So you can write scripts and presentations for research all in one. 
-By the way, I conduct all my studies in [Colab](https://colab.research.google.com/notebooks/basic_features_overview.ipynb). I chose it because I had only the old-fashioned laptop with 2 cores processor and sometimes worked in the library public computers. Thus, Colab let me not be limited with laptop resources and be flexible in working on the project from different devices. Among other pros Colab is much easier to set up. In fact, you need just open the link and also you can share it by link. 
-> Small tip. You can use Colab Pro version with GPU and additional RAM for 10 euros per month. And still, all these things are highly affordable, because you can have lots of calculation resources even on the super cheap devices (in extremal case even on tablet or smartphone)
+By the way, I conduct all my studies in [Colab](https://colab.research.google.com/notebooks/basic_features_overview.ipynb). I chose it because I had only the old-fashioned laptop with 2 cores processor and sometimes worked in the library public computers. Thus, Colab let me not be limited by laptop resources and be flexible in working on the project from different devices. Among other pros, Colab is much easier to set up. You need just open the link and also you can share it by link. 
+> Small tip. You can use the Colab Pro version with GPU and additional RAM for 10 euros per month. And still, all these things are highly affordable, because you can have lots of calculation resources even on super cheap devices (in extremal cases even on tablets or smartphone)
 
 ### Instrument to demonstrate SQL skills
-In the beginning, I highly recommend trying this [site](https://sqliteonline.com/). Here you can import CSV files and work with them on SQL lite. Also, you can deploy MariaDB, Postrgres, or MS SQL locally and use this site as an interface. 
+In the beginning, I highly recommend trying this [site](https://sqliteonline.com/). Here you can import CSV files and work with them on SQL lite. Also, you can deploy MariaDB, Postgres, or MS SQL locally and use this site as an interface. 
 
-However, sqliteinline has limits for table size and you can not make a dashboard in it to share your results by link. That's why I suggest using [pandasql](https://pypi.org/project/pandasql/) in combination with Jupyter Notebook. In such approach, you can demonstrate all your skills in one document.
-> Small tip. If you use pandasql you need to format your values to 8-bit datatype. It is SQL lite limit. 
+However, sqliteinline has limits for table size and you can not make a dashboard in it to share your results by link. That's why I suggest using [pandasql](https://pypi.org/project/pandasql/) in combination with Jupyter Notebook. In such an approach, you can demonstrate all your skills in one document.
+> Small tip. If you use pandasql you need to format your values to the 8-bit datatype. It is SQL lite limit. 
 
-### How to organize proccess
-Tech task usually is quite a stressful process. That is why having a plan allow you keep focus and worry less. 
+### How to organize process
+Tech task usually is quite stressful processes. That is why having a plan allows you to keep focus and worry less. 
 Surprisingly, most of the tasks are structured the same. You have a dataset, its description (hopefully), and a task list. 
 >  It is critical to understand what the company wants to test to make a good solution. 
 From my managerial expirience, I suppose most the companies follow aim to test candidates for the next skills.
@@ -84,10 +84,10 @@ From my managerial expirience, I suppose most the companies follow aim to test c
 - Data Visualisation 
 - Make conclusions and insights based on Data
 
-Based on these information we can tune our approach for task solution.
+Based on this information we can tune our approach to task solutions.
 I suggest following the next checklist in every solution.
 
-1. Read the task mindfully and the dataset description
+1. Read mindfully the task  and the dataset description
 2. If there is no dataset description, have a look at it (how to do it in the next parts)
 3. Create a research plan.
 >  I know that research is a creative process and most analysts create a plan during working with data. However, in a test task, you do not have enough time to spend in a such way.
@@ -101,30 +101,30 @@ I suggest following the next checklist in every solution.
 11. Make a presentation to the manager
 12. Create a solution pack, describe it and send it to the company
 
-Doing our best at every of these points we will increase our chances to pass the test.
-You can see that most of them are very universal for any tasks. Thus, I think my advice will work for the magority of analyst tech tasks.
+Doing our best at each of these points will increase our chances to pass the test.
+You can see that most of them are very universal for any tasks. Thus, I think my advice will work for the majority of analyst tech tasks.
 
-### Tips to improve solution
+### Tips to improve the solution
 **No dataset description**
 
 Okey sometimes either company wants to test your ability to work with undocumented data or they are just lazy to make descriptions. In that case, you need to define data nature by yourself. How to do it. 
 Usually follow the next plan:
 - Have a look at the data. Select head 5-10 rows and visually see their values. 
-> Using pandas library in python you can use function df.head(number_rows) 
+> Using pandas library in python you can use the function df.head(number_rows) 
 - Try to connect column name, value, and business meaning. 
 - Classify the values and select a data type. Is it categorical, rank, number, DateTime, bool, or something else?
-- Based on data type I tried to learn what this data looks like. How many categories? What is the minimal and maximum date? How number value is distributed. Do data include NaN and how are they logged?
-> Firstly, change a data format to the correct one for DateTime use datetime library and pandas function pandas.datetime for other types you can use .astype. Then to see general information simplest way is to use the pandas function .describe(). It returns max, min, average, unique, count, and other important metrics. For number value distribution you can build box splot in any convenient library (in the next part I will share my favorite one).
+- Based on the data type I tried to learn what this data looks like. How many categories? What is the minimum and maximum date? How number value is distributed. Do data include NaN and how are they logged?
+> First, change a data format to the correct one for DateTime use DateTime library and pandas function pandas.datetime for other types you can use .astype. Then to see general information simplest way is to use the pandas function .describe(). It returns max, min, average, unique, count, and other important metrics. For number value distribution you can build a box splot in any convenient library (in the next part I will share my favorite one).
 
 This analysis usually is enough to go to the planning stage.
 
 **How to create a plan**
 
-Honestly, there is no excetly one way to do it. It highly depends on the tech task.
+Honestly, there is no exactly one way to do it. It highly depends on the tech task.
 However, to save time you can use a common research pattern.
 Which patterns do I often use?
 Based on tech task:
-- From up to down approach. Select the main metric, decompose this metric to sub-metrics and build all possible distributions of these metrics based on available slices. 
+- From up to down approach. Select the main metric, decompose this metric into sub-metrics and build all possible distributions of these metrics based on available slices. 
 > For example, you need to define marketing channel efficiency. The high metric is ROI. You can decompose it to LTV and CAC, LTV decomposes to ARPU and LT, ARPU decomposes to APPP and APPU. Then you can see time dynamics, structure by market channels and their companies, structure by segment, country, device, etc.
 Based on the data description:
 - If I have time series in the data frame, I research dynamics with one or several spans, daily, weekly, or monthly.
@@ -137,7 +137,7 @@ I form a plan as a result of a combination of business and technical parts. In m
 
 **Read data**
 
-Nothing special. I used pandas.read_csv / pandas.read_excel. In case of CSV sometimes you need to update separation parameter to ";" using sep = ";" condition. 
+Nothing special. I used pandas.read_csv / pandas.read_excel. In the case of CSV sometimes you need to update separation parameter to ";" using sep = ";" condition. 
 Also, if you work in Colab you can read files from your google disk
 ```
 from google.colab import drive
@@ -150,9 +150,9 @@ The basic steps for these processes are the next:
 
 Cope with missings.
 
--  Firstly, define them it might be empty/space/NaN/na/nan/NA or called something else. To detect missing values use isnull() and isna(). However, to double-check it I recommend calculating count by unique values.
+- First, define them it might be empty/space/NaN/na/nan/NA or called something else. To detect missing values use isnull() and isna(). However, to double-check it I recommend calculating the count by unique values.
 -  Secondly, decide what to do drop it (.dropna()) / to set default value (.fillna())/ reconstruct it.
-> Usually you can drop data if it's extremely rare events. You should fill the default value if it is a suffient part of data. And in rare cases, there is a way to reconstruct data from other fields. For instance, you do not have a device brand but you have device OS so you can reconstruct apple devices by ios value. 
+> Usually you can drop data if it's extremely rare events. You should fill the default value if it is a sufficient part of the data. And in rare cases, there is a way to reconstruct data from other fields. For instance, you do not have a device brand but you have device OS so you can reconstruct apple devices by ios value. 
 -  Finally, conduct the proper action.
 
 Check anomalies. 
@@ -172,7 +172,7 @@ To find out it, again you can count values by unique values in the column.
 **Create an analytical platform**
 
 That is an interesting part. I really believe that the best way to research data is to make a convenient interactive dashboard for yourself. 
-Basically, a good analyst is getting used to exploring data by writing scripts and visually seeing that data tables might be essential.
+A good analyst is getting used to exploring data by writing scripts and visually seeing that data tables might be essential.
 BUT, the ability to operate with data using UI makes the exploration process much faster and it may be critical in the creative process. 
 When you can navigate over the data by clicking it allow you to follow your mind immediately without thoughts about how to construct the query. 
 
@@ -186,7 +186,7 @@ In a company usually you have BI system. In a test task you have two ways:
 I personally vote for the second one. In my case, I use [plotly](https://plotly.com/python/).
 Why I have chosen it?
 1. Simplicity, less code more functions. You need to write a couple of code lines and as a result get an animated, interactive graph.
-2. Beauty. It looks clear, modern, and pretty, so even if you are not a professional visualizer you will have nice graphs. In addition, you may use these graphs not just for your platform but also for your case solution visualisations. 
+2. Beauty. It looks clear, modern, and pretty, so even if you are not a professional visualizer you will have nice graphs. In addition, you may use these graphs not just for your platform but also for your case solution visualizations. 
 3. Big graph assortment from bars to maps. 
 
 In cases when you need to build a lot of graphs, I highly recommend writing the graph generator method and automating this process to make your script even more concise.
@@ -231,7 +231,7 @@ Your presentation should be simple and clear.
 A good idea is to use company corporate colors from their website.
 The presentation should be business style but not boring.
 
-I suggest using [canva](https://www.canva.com/) as a presentation constructor It has nice fonts, presets and easy UI. 
+I suggest using [canva](https://www.canva.com/) as a presentation constructor It has nice fonts, presets, and an easy UI. 
 1. [Presentation example 1](https://github.com/iliailinskii/test-cases/blob/main/company%20a/Company%20A%20result%20slides.pdf)
 2. [Presentation example 2](https://github.com/iliailinskii/test-cases/blob/main/company%20c/Company%20C%20result%20slides.pdf)
 
@@ -246,7 +246,7 @@ If you use Plotly you might face the problem that graphs are not rendered in HTM
 To fix this problem use the next code.
 
 ```
-fig.show("png") # in such case graph become not interactive but it will be showed by default in HTML
+fig.show("png") # in such case graph becomes not interactive but it will be showed by default in HTML
 
 ```
 ## Self-presentation
@@ -260,19 +260,11 @@ You can find my presentation [here](https://github.com/iliailinskii/test-cases/b
 It is a good instrument
 * to bring structure to your speech
 * to show visually how you work
-* attract interest to yourself
+* attract interest in yourself
 
 Thank you if you have read till the end.
-Please, feel free to add your comments, thoughts and share your expirience!
+Please, feel free to add your comments, and thoughts and share your expirience!
 
 
 
-
-
-
-
-
-
-
- 
 
